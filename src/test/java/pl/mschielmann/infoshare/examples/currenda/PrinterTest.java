@@ -27,7 +27,7 @@ public class PrinterTest {
     @Test
     public void given_message_when_invoked_then_message_printed2() throws InterruptedException {
         // given
-        Thread.sleep(60000);
+        Thread.sleep(50000);
         Printer printer = new Printer();
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
